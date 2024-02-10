@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>arcade dogo</title>
+    <meta
+      name="description"
+      content="welcome to the official website of arcade dogo wuff"
+    />
+    <meta name="author" content="Daniel Garcia Barajas" />
+
+    <!-- Social Media Card meta tags -->
+    <meta property="og:title" content="arcade dogo" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="image.png" />
+    <meta property="og:url" content="url" />
+    <meta
+      property="og:description"
+      content="welcome to the official website of arcade dogo wuff"
+    />
+    <meta property="og:site_name" content="arcade dogo" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <script
+      src="https://kit.fontawesome.com/6444942d35.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/script.js"></script>
+
+    <!--For cards animations-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav-dkt">
+        <nav>
+          <ul>
+            <li>
+              <select name="lang">
+                <option value="en">en</option>
+                <option value="es">es</option>
+                <option value="fr">fr</option>
+              </select>
+            </li>
+            <li>
+              <a href="https://twitter.com/ArcadeDogo"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/arcadedogo/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/@arcadedogo"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+        <a href="index.html" class="nav-title">arcade dogo</a>
+        <nav>
+          <ul>
+            <li><a href="#about">about us</a></li>
+            <li><a href="index.html">our games</a></li>
+            <li><a href="index.html">contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="nav-mbl">
+        <div class="nav-sub">
+          <a href="index.html" class="nav-title">arcade dogo</a>
+          <nav>
+            <ul>
+              <li>
+                <a href="https://twitter.com/ArcadeDogo"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/arcadedogo/"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/@arcadedogo"
+                  ><i class="fa-brands fa-youtube"></i
+                ></a>
+              </li>
+              <li>
+                <select name="lang">
+                  <option value="en">en</option>
+                  <option value="es">es</option>
+                  <option value="fr">fr</option>
+                </select>
+              </li>
+              <li>
+                <button id="mbl-toggle" onclick="toggleMenu()">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <nav class="nav-hdn">
+          <ul>
+            <li><a class="active" href="#about">about us</a></li>
+            <li><a href="index.html">our games</a></li>
+            <li><a href="index.html">contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="landing">
+        <div class="container">
+          <div class="txt-container">
+            <h1>Hi, we're</h1>
+            <h1>ARCADE DOGO!</h1>
+          </div>
+          <div class="img-container">
+            <img src="resources/DoGo-Face.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container">
+          <h1 class="sct-ttl">about us</h1>
+          <div class="txt-container">
+            <div>
+              <h2>WHAT DO WE DO?</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur est, rem earum ut quisquam enim sequi nisi explicabo
+                totam repudiandae, at tenetur cupiditate molestias perspiciatis
+                ipsum error minus aspernatur vero.
+              </p>
+            </div>
+            <div>
+              <h2>WHO ARE WE?</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur est, rem earum ut quisquam enim sequi nisi explicabo
+                totam repudiandae, at tenetur cupiditate molestias perspiciatis
+                ipsum error minus aspernatur vero.
+              </p>
+              <div id="dogos-container"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--For cards animations-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

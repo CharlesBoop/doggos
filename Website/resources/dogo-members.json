@@ -1,0 +1,11 @@
+{
+  "team": [
+    {
+      "name": "daniel garcia",
+      "area": "Co-founder",
+      "image": "resources/dogo-members-imgs/IMG_0665.jpg",
+      "contact": "https://danielgarciabarajas.dev",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  ]
+}
